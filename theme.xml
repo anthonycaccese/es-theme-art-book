@@ -1,0 +1,227 @@
+<!--
+theme name:     Art Book
+version:        1.0
+author:         Anthony
+license:        creative commons CC-BY-NC-SA
+credit:         Logo artwork originally from Carbon theme
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+   <!-- All Views -->
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/space.png</path>
+         <color>141414</color>
+      </image>
+   </view>
+
+   <!-- All Non-System Views -->
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <origin>.5 0</origin>
+         <maxSize>0.09375 0.0555555555555556</maxSize>
+      </image>
+      <textlist name="gamelist">
+         <selectorColor>333333ff</selectorColor>
+         <selectedColor>cccccc</selectedColor>
+         <primaryColor>cccccc</primaryColor>
+         <secondaryColor>cccccc</secondaryColor>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.025</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>
+         <lineSpacing>1.6</lineSpacing>
+      </textlist>
+      <image name="help-random" extra="true">
+         <path>./_inc/images/help-random.svg</path>
+         <size>0.07734375 0.0263888888888889</size>
+      </image>
+      <image name="help-launch" extra="true">
+         <path>./_inc/images/help-launch.svg</path>
+         <size>0.071875 0.0263888888888889</size>
+      </image>
+      <image name="help-favorite" extra="true">
+         <path>./_inc/images/help-favorite.svg</path>
+         <size>0.08046875 0.0263888888888889</size>
+      </image>
+   </view>
+
+   <!-- Basic Views -->
+   <view name="basic">
+      <image name="logo">
+         <pos>.5 0.1416666666666667</pos>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.375 0.2416666666666667</pos>
+         <size>0.25 0.5555555555555556</size>
+      </textlist>
+      <image name="help-launch" extra="true">
+         <origin>0 0</origin>
+         <pos>0.3734375 0.8333333333333333</pos>
+      </image>
+      <image name="help-random" extra="true">
+         <origin>0 0</origin>
+         <pos>0.45703125 0.8333333333333333</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <origin>0 0</origin>
+         <pos>0.54921875 0.8333333333333333</pos>
+      </image>
+   </view>
+
+   <!-- Detailed & Video Views -->
+   <view name="detailed,video">
+      <image name="background" extra="true">
+         <color>cccccc</color>
+      </image>
+      <image name="md_image">
+         <origin>0 0</origin>
+         <pos>0.071875 0.1277777777777778</pos>
+         <maxSize>0.3078125 0.75</maxSize>
+      </image>
+
+      <!-- Resets -->
+      <text name="md_lbl_rating,md_lbl_developer,md_lbl_publisher,md_lbl_playcount,md_developer,md_publisher,md_playcount">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
+         <color>333333</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.0222222222222222</fontSize>
+      </text>
+      <datetime name="md_lastplayed,md_releasedate">
+         <color>333333</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontSize>0.0222222222222222</fontSize>
+      </datetime>
+
+      <!-- Metadata -->
+      <rating name="md_rating">
+         <pos>0.4125 0.1388888888888889</pos>
+         <size>0.2515625 0.0277777777777778</size>
+      </rating>
+      <text name="md_lbl_lastplayed">
+         <pos>0.4125 0.1944444444444444</pos>
+         <size>0.09375 0.0222222222222222</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.50625 0.1944444444444444</pos>
+         <size>0.1171875 0.0222222222222222</size>
+      </datetime>
+      <text name="md_lbl_players">
+         <pos>0.4125 0.2222222222222222</pos>
+         <size>0.09375 0.0222222222222222</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <text name="md_players">
+         <pos>0.50625 0.2222222222222222</pos>
+         <size>0.1171875 0.0222222222222222</size>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.4125 0.25</pos>
+         <size>0.09375 0.0222222222222222</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.50625 0.25</pos>
+         <size>0.1171875 0.0222222222222222</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.4125 0.2777777777777778</pos>
+         <size>0.09375 0.0222222222222222</size>
+         <forceUppercase>1</forceUppercase>
+      </text>
+      <text name="md_genre">
+         <pos>0.50625 0.2777777777777778</pos>
+         <size>0.1171875 0.0222222222222222</size>
+      </text>
+
+      <!-- Description -->
+      <image name="help-launch" extra="true">
+         <origin>0 0</origin>
+         <pos>0.4125 0.6416666666666667</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <origin>0 0</origin>
+         <pos>0.496875 0.6416666666666667</pos>
+      </image>
+      <image name="md_description_border" extra="true">
+         <origin>0 0</origin>
+         <pos>0.4125 0.7</pos>
+         <size>0.25 0.0027777777777778</size>
+         <path>./_inc/images/space.png</path>
+         <color>bbbbbb</color>
+      </image>
+      <text name="md_description">
+         <pos>0.4125 0.7277777777777778</pos>
+         <size>0.25 0.1416666666666667</size>
+         <color>333333</color>
+         <fontSize>0.0194444444444444</fontSize>
+      </text>
+
+      <!-- Gamelist -->
+      <image name="gamelist-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0.75 0</pos>
+         <size>0.25 1</size>
+         <path>./_inc/images/space.png</path>
+         <color>141414</color>
+      </image>
+      <image name="logo">
+         <pos>0.875 0.1416666666666667</pos>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.75 0.2416666666666667</pos>
+         <size>0.25 0.5555555555555556</size>
+      </textlist>
+      <image name="help-random" extra="true">
+         <origin>0.5 0</origin>
+         <pos>0.875 0.8333333333333333</pos>
+         <zIndex>100</zIndex>
+      </image>
+   </view>
+
+   <view name="video">
+      <text name="md_description">
+         <pos>0.4125 0.3472222222222222</pos>
+         <size>0.25 0.0875</size>
+      </text>
+      <image name="md_marquee">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <image name="help-launch" extra="true">
+         <origin>0 0</origin>
+         <pos>0.4125 0.4861111111111111</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <origin>0 0</origin>
+         <pos>0.496875 0.4861111111111111</pos>
+      </image>
+      <image name="video-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0.4125 0.5333333333333333</pos>
+         <size>0.25625 0.3444444444444444</size>
+         <path>./_inc/images/space.png</path>
+         <color>bbbbbb</color>
+      </image>
+      <video name="md_video">
+         <origin>0 0</origin>
+         <pos>0.415625 0.5388888888888889</pos>
+         <maxSize>0.25 0.3333333333333333</maxSize>
+         <delay>0.5</delay>
+         <default>./_inc/videos/static.mp4</default>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+   </view>
+</theme>
