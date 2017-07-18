@@ -23,6 +23,18 @@ credit:         Logo artwork originally from Carbon theme
       </image>
    </view>
 
+   <view name="system">
+      <carousel name="systemcarousel">
+         <type>horizontal</type>
+         <color>000000</color>
+      </carousel>
+      <text name="systemInfo">
+         <backgroundColor>000000</backgroundColor>
+         <color>777777</color>
+         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+      </text>
+   </view>
+
    <!-- All Non-System Views -->
    <view name="basic,detailed,video">
       <image name="logo">
@@ -220,7 +232,7 @@ credit:         Logo artwork originally from Carbon theme
          <origin>0 0</origin>
          <pos>0.415625 0.5388888888888889</pos>
          <maxSize>0.25 0.3333333333333333</maxSize>
-         <delay>0.5</delay>
+         <delay>0.2</delay>
          <default>./_inc/videos/static.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
