@@ -1,0 +1,79 @@
+<theme>
+   <formatVersion>4</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="system, basic, detailed, video">
+      <image name="logo">
+         <path>./_inc/system.svg</path>
+      </image>
+   </view>
+
+   <!-- Detailed & Video Views -->
+   <view name="detailed,video">
+      <image name="md_image">
+         <origin>0 0</origin>
+         <pos>0.071875 0.1277777777777778</pos>
+         <maxSize>0.39453125 0.5138888888888889</maxSize>
+      </image>
+
+      <!-- Metadata -->
+      <rating name="md_rating">
+         <pos>0.4921875 0.1388888888888889</pos>
+      </rating>
+      <text name="md_lbl_lastplayed">
+         <pos>0.4921875 0.1944444444444444</pos>
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.5859375 0.1944444444444444</pos>
+      </datetime>
+      <text name="md_lbl_players">
+         <pos>0.4921875 0.2222222222222222</pos>
+      </text>
+      <text name="md_players">
+         <pos>0.5859375 0.2222222222222222</pos>
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.4921875 0.25</pos>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.5859375 0.25</pos>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.4921875 0.2777777777777778</pos>
+      </text>
+      <text name="md_genre">
+         <pos>0.5859375 0.2777777777777778</pos>
+      </text>
+
+      <!-- Description -->
+      <image name="help-launch" extra="true">
+         <pos>0.4921875 0.6111111111111111</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <pos>0.57578125 0.6111111111111111</pos>
+      </image>
+      <image name="md_description_border" extra="true">
+         <pos>0.071875 0.7</pos>
+         <size>0.590625 0.0027777777777778</size>
+      </image>
+      <text name="md_description">
+         <pos>0.071875 0.7277777777777778</pos>
+         <size>0.590625 0.1416666666666667</size>
+      </text>
+
+   </view>
+
+   <view name="video">
+      <image name="md_description_border" extra="true">
+         <size>0.3078125 0.0027777777777778</size>
+      </image>
+      <text name="md_description">
+         <size>0.3078125 0.1416666666666667</size>
+      </text>
+      <image name="help-launch" extra="true">
+         <pos>0.4921875 0.4861111111111111</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <pos>0.57578125 0.4861111111111111</pos>
+      </image>
+   </view>
+</theme>

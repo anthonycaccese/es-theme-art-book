@@ -27,7 +27,8 @@ credit:         Logo artwork originally from Carbon theme
    <view name="basic,detailed,video">
       <image name="logo">
          <origin>.5 0</origin>
-         <maxSize>0.09375 0.0555555555555556</maxSize>
+         <maxSize>0.125 0.0555555555555556</maxSize>
+         <color>ffffff44</color>
       </image>
       <textlist name="gamelist">
          <selectorColor>333333ff</selectorColor>
@@ -57,7 +58,7 @@ credit:         Logo artwork originally from Carbon theme
    <!-- Basic Views -->
    <view name="basic">
       <image name="logo">
-         <pos>.5 0.1416666666666667</pos>
+         <pos>.5 0.1527777777777778</pos>
       </image>
       <textlist name="gamelist">
          <pos>0.375 0.2416666666666667</pos>
@@ -177,11 +178,11 @@ credit:         Logo artwork originally from Carbon theme
          <color>141414</color>
       </image>
       <image name="logo">
-         <pos>0.875 0.1416666666666667</pos>
+         <pos>0.875 0.1527777777777778</pos>
       </image>
       <textlist name="gamelist">
-         <pos>0.75 0.2416666666666667</pos>
-         <size>0.25 0.5555555555555556</size>
+         <pos>0.7890625 0.2416666666666667</pos>
+         <size>0.171875 0.5555555555555556</size>
       </textlist>
       <image name="help-random" extra="true">
          <origin>0.5 0</origin>
@@ -213,6 +214,7 @@ credit:         Logo artwork originally from Carbon theme
          <size>0.25625 0.3444444444444444</size>
          <path>./_inc/images/space.png</path>
          <color>bbbbbb</color>
+         <zIndex>31</zIndex>
       </image>
       <video name="md_video">
          <origin>0 0</origin>
@@ -222,6 +224,7 @@ credit:         Logo artwork originally from Carbon theme
          <default>./_inc/videos/static.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
+         <zIndex>32</zIndex>
       </video>
    </view>
 </theme>
