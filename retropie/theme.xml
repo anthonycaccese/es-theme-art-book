@@ -1,9 +1,18 @@
 <theme>
    <formatVersion>4</formatVersion>
    <include>./../theme.xml</include>
+   <include>./../_inc/templates/portrait.xml</include>
    <view name="system, basic, detailed, video">
       <image name="logo">
          <path>./_inc/system.svg</path>
       </image>
+   </view>
+   <view name="detailed, video">
+      <text name="md_rating,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre">
+         <pos>1 1</pos>
+      </text>
+      <datetime name="md_lastplayed,md_releasedate">
+         <pos>1 1</pos>
+      </datetime>
    </view>
 </theme>
