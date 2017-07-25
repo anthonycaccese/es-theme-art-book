@@ -24,31 +24,32 @@ credit:         Logo artwork originally from Carbon theme
    </view>
 
    <!-- VIEW: System -->
-   <view name="system">
-      <carousel name="systemcarousel">
-         <type>horizontal</type>
-         <color>141414</color>
-      </carousel>
-      <text name="systemInfo">
-         <backgroundColor>141414</backgroundColor>
-         <color>666666</color>
-         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
-         <fontSize>0.0222222222222222</fontSize>
-      </text>
-      <image name="system-border" extra="true">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.62</pos>
-         <size>0.25 0.0027777777777778</size>
-         <path>./_inc/images/space.png</path>
-         <color>444444</color>
-         <zIndex>100</zIndex>
-      </image>
-      <text name="logoText">
-         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
-         <color>cccccc</color>
-         <forceUppercase>true</forceUppercase>
-      </text>
-   </view>
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <color>141414</color>
+         </carousel>
+         <text name="systemInfo">
+            <backgroundColor>141414</backgroundColor>
+            <color>666666</color>
+            <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+            <fontSize>0.0222222222222222</fontSize>
+         </text>
+         <image name="system-border" extra="true">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.62</pos>
+            <size>0.25 0.0027777777777778</size>
+            <path>./_inc/images/space.png</path>
+            <color>444444</color>
+         </image>
+         <text name="logoText">
+            <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+            <color>cccccc</color>
+            <forceUppercase>true</forceUppercase>
+         </text>
+      </view>
+   </feature>
 
    <!-- VIEW: Basic Detaield & Video -->
    <view name="basic,detailed,video">
@@ -179,12 +180,10 @@ credit:         Logo artwork originally from Carbon theme
       <image name="help-launch" extra="true">
          <pos>0.4125 0.597222222222222</pos>
          <origin>0 0</origin>
-         <zIndex>100</zIndex>
       </image>
       <image name="help-favorite" extra="true">
          <pos>0.4953125 0.597222222222222</pos>
          <origin>0 0</origin>
-         <zIndex>100</zIndex>
       </image>
       <image name="md-description-border" extra="true">
          <pos>0.071875 0.736111111111111</pos>
@@ -192,7 +191,6 @@ credit:         Logo artwork originally from Carbon theme
          <origin>0 0</origin>
          <path>./_inc/images/space.png</path>
          <color>bbbbbb</color>
-         <zIndex>100</zIndex>
       </image>
       <text name="md_description">
          <pos>0.071875 0.755555555555556</pos>
@@ -217,7 +215,6 @@ credit:         Logo artwork originally from Carbon theme
          <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
          <forceUppercase>true</forceUppercase>
          <color>777777</color>
-         <zIndex>200</zIndex>
       </text>
       <textlist name="gamelist">
          <pos>0.7890625 0.2416666666666667</pos>
@@ -226,7 +223,6 @@ credit:         Logo artwork originally from Carbon theme
       <image name="help-random" extra="true">
          <origin>0.5 0</origin>
          <pos>0.875 0.8333333333333333</pos>
-         <zIndex>100</zIndex>
       </image>
    </view>
 
@@ -255,7 +251,6 @@ credit:         Logo artwork originally from Carbon theme
          <size>0.25625 0.3444444444444444</size>
          <path>./_inc/images/space.png</path>
          <color>bbbbbb</color>
-         <zIndex>31</zIndex>
       </image>
       <video name="md_video">
          <origin>0 0</origin>
@@ -265,8 +260,40 @@ credit:         Logo artwork originally from Carbon theme
          <default>./_inc/videos/static.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
-         <zIndex>32</zIndex>
       </video>
    </view>
+
+   <feature supported="z-index">
+      <view name="system">
+         <image name="system-border" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+      </view>
+      <view name="detailed,video">
+         <image name="help-launch" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <image name="help-favorite" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <image name="md-description-border" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+         <text name="logoText">
+            <zIndex>200</zIndex>
+         </text>
+         <image name="help-random" extra="true">
+            <zIndex>100</zIndex>
+         </image>
+      </view>
+      <view name="video">
+         <image name="video-background">
+            <zIndex>31</zIndex>
+         </image>
+         <video name="md_video">
+            <zIndex>32</zIndex>
+         </video>
+      </view>
+   </feature>
 
 </theme>
