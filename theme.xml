@@ -264,6 +264,11 @@ credit:         Logo artwork originally from Carbon theme
    </view>
 
    <feature supported="z-index">
+      <view name="system,basic,detailed,video">
+         <image name="background" extra="true">
+            <zIndex>1</zIndex>
+         </image>
+      </view>
       <view name="system">
          <image name="system-border" extra="true">
             <zIndex>100</zIndex>
@@ -287,11 +292,11 @@ credit:         Logo artwork originally from Carbon theme
          </image>
       </view>
       <view name="video">
-         <image name="video-background">
-            <zIndex>31</zIndex>
+         <image name="video-background" extra="true">
+            <zIndex>100</zIndex>
          </image>
          <video name="md_video">
-            <zIndex>32</zIndex>
+            <zIndex>110</zIndex>
          </video>
       </view>
    </feature>
