@@ -246,15 +246,22 @@ credit:         Logo artwork originally from Carbon theme
          <pos>1 1</pos>
       </image>
       <image name="video-background" extra="true">
-         <origin>0 0</origin>
-         <pos>0.4125 0.5333333333333333</pos>
+         <origin>0.5 0.5</origin>
+         <pos>0.540625 0.705555555555556</pos>
          <size>0.25625 0.3444444444444444</size>
          <path>./_inc/images/space.png</path>
          <color>bbbbbb</color>
       </image>
+      <image name="video-screen" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.540625 0.705555555555556</pos>
+         <size>0.25 0.3333333333333333</size>
+         <path>./_inc/images/space.png</path>
+         <color>000000</color>
+      </image>
       <video name="md_video">
-         <origin>0 0</origin>
-         <pos>0.415625 0.5388888888888889</pos>
+         <origin>0.5 0.5</origin>
+         <pos>0.540625 0.705555555555556</pos>
          <maxSize>0.25 0.3333333333333333</maxSize>
          <delay>0.2</delay>
          <default>./_inc/videos/static.mp4</default>
@@ -294,6 +301,9 @@ credit:         Logo artwork originally from Carbon theme
       <view name="video">
          <image name="video-background" extra="true">
             <zIndex>100</zIndex>
+         </image>
+         <image name="video-screen" extra="true">
+            <zIndex>105</zIndex>
          </image>
          <video name="md_video">
             <zIndex>110</zIndex>
