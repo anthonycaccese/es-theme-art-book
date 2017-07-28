@@ -38,16 +38,6 @@
       </text>
       <!-- Description & Help Icons -->
       <image name="help-launch" extra="true">
-         <pos>0.4984375 0.597222222222222</pos>
-      </image>
-      <image name="help-favorite" extra="true">
-         <pos>0.58125 0.597222222222222</pos>
-      </image>
-   </view>
-   <!-- VIEW: Video -->
-   <view name="video">
-      <!-- Description & Help Icons -->
-      <image name="help-launch" extra="true">
          <pos>0.4984375 0.472222222222222</pos>
       </image>
       <image name="help-favorite" extra="true">

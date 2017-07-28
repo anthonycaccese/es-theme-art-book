@@ -178,11 +178,11 @@ credit:         Logo artwork originally from Carbon theme
 
       <!-- Description & Help Icons -->
       <image name="help-launch" extra="true">
-         <pos>0.4125 0.597222222222222</pos>
+         <pos>0.4125 0.472222222222222</pos>
          <origin>0 0</origin>
       </image>
       <image name="help-favorite" extra="true">
-         <pos>0.4953125 0.597222222222222</pos>
+         <pos>0.4953125 0.472222222222222</pos>
          <origin>0 0</origin>
       </image>
       <image name="md-description-border" extra="true">
