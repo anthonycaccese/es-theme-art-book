@@ -3,24 +3,24 @@
   <g id="g3">
     <g id="g5" style="fill:#ffffff;fill-opacity:1">
       <g id="layer2" style="fill:#ffffff;fill-opacity:1">
-        <polygon id="polygon3542" points="51.491,11.127 39.613,32.324 51.491,27.772 62.829,32.113 65.865,28.707      65.865,5.553    " style="fill:#ffffff;fill-opacity:1" fill="#0222A9"/>
-        <polygon id="polygon3558" points="88.391,87.288 66.938,59.29 66.938,96.307 51.491,102.842 51.491,39.606      66.938,33.69 88.391,64.354 88.391,25.369 102.98,19.742 102.98,81.161    " style="fill:#ffffff;fill-opacity:1" fill="#011DA9"/>
-        <polygon id="polygon3560" points="14.589,87.288 28.277,81.227 14.589,54.653    " style="fill:#ffffff;fill-opacity:1" fill="#0222A9"/>
+        <polygon id="polygon3542" points="51.491,11.127 39.613,32.324 51.491,27.772 62.829,32.113 65.865,28.707      65.865,5.553    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3558" points="88.391,87.288 66.938,59.29 66.938,96.307 51.491,102.842 51.491,39.606      66.938,33.69 88.391,64.354 88.391,25.369 102.98,19.742 102.98,81.161    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3560" points="14.589,87.288 28.277,81.227 14.589,54.653    " style="fill-opacity: 1;"/>
       </g>
       <g id="layer3" style="fill:#ffffff;fill-opacity:1">
-        <polygon id="polygon3538" points="29.178,19.742 36.044,33.689 39.613,32.324 51.491,11.127 37.117,5.535    " style="fill:#ffffff;fill-opacity:1" fill="#069330"/>
-        <polygon id="polygon3540" points="62.829,32.113 73.807,19.742 88.391,25.369 88.391,64.354 66.938,33.69    " style="fill:#ffffff;fill-opacity:1" fill="#069330"/>
-        <polygon id="polygon3552" points="14.589,25.369 0,19.742 0,81.161 14.589,87.288 14.589,54.653 36.044,96.307      51.491,102.842 51.491,39.606 36.044,33.689 36.044,65.792    " style="fill:#ffffff;fill-opacity:1" fill="#069330"/>
+        <polygon id="polygon3538" points="29.178,19.742 36.044,33.689 39.613,32.324 51.491,11.127 37.117,5.535    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3540" points="62.829,32.113 73.807,19.742 88.391,25.369 88.391,64.354 66.938,33.69    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3552" points="14.589,25.369 0,19.742 0,81.161 14.589,87.288 14.589,54.653 36.044,96.307      51.491,102.842 51.491,39.606 36.044,33.689 36.044,65.792    " style="fill-opacity: 1;"/>
       </g>
       <g id="layer4" style="fill:#ffffff;fill-opacity:1">
-        <polygon id="polygon3554" points="36.044,33.689 36.044,65.792 14.589,25.369 29.178,19.742    " style="fill:#ffffff;fill-opacity:1" fill="#FE2015"/>
-        <polygon id="polygon3556" points="88.391,87.288 66.938,59.29 66.938,74.586 71.321,80.731    " style="fill:#ffffff;fill-opacity:1" fill="#FE2015"/>
+        <polygon id="polygon3554" points="36.044,33.689 36.044,65.792 14.589,25.369 29.178,19.742    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3556" points="88.391,87.288 66.938,59.29 66.938,74.586 71.321,80.731    " style="fill-opacity: 1;"/>
       </g>
       <g id="layer5" style="fill:#ffffff;fill-opacity:1">
-        <polygon id="polygon3544" points="66.938,33.689 51.491,39.606 36.044,33.689 51.491,27.772    " style="fill:#ffffff;fill-opacity:1" fill="#FFC001"/>
-        <polygon id="polygon3546" points="73.802,19.742 88.391,14.129 102.98,19.742 88.391,25.369    " style="fill:#ffffff;fill-opacity:1" fill="#FFC001"/>
-        <polygon id="polygon3548" points="0,19.742 14.589,14.129 29.178,19.742 14.589,25.369    " style="fill:#ffffff;fill-opacity:1" fill="#FFC001"/>
-        <polygon id="polygon3550" points="65.865,5.553 51.491,0 37.117,5.535 51.491,11.127    " style="fill:#ffffff;fill-opacity:1" fill="#FFC001"/>
+        <polygon id="polygon3544" points="66.938,33.689 51.491,39.606 36.044,33.689 51.491,27.772    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3546" points="73.802,19.742 88.391,14.129 102.98,19.742 88.391,25.369    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3548" points="0,19.742 14.589,14.129 29.178,19.742 14.589,25.369    " style="fill-opacity: 1;"/>
+        <polygon id="polygon3550" points="65.865,5.553 51.491,0 37.117,5.535 51.491,11.127    " style="fill-opacity: 1;"/>
       </g>
     </g>
     <g id="g23" style="fill:#ffffff;fill-opacity:1">
