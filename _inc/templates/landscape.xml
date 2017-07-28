@@ -4,6 +4,8 @@
    <view name="detailed,video">
       <!-- Image -->
       <image name="md_image">
+         <origin>0 0</origin>
+         <pos>0.071875 0.1277777777777778</pos>
          <maxSize>0.39453125 0.5138888888888889</maxSize>
       </image>
       <!-- Metadata -->
