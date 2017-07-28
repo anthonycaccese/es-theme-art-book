@@ -24,9 +24,9 @@
       <path d="M135.852,70.281h3.391v1.771h0.05c0.937-1.344,2.302-2.127,3.997-2.127c1.645,0,3.111,0.607,3.82,2.178    c0.759-1.141,2.125-2.178,3.946-2.178c2.783,0,4.782,1.289,4.782,4.681v8.752h-3.593v-7.412c0-1.743-0.15-3.187-2.2-3.187    c-2.024,0-2.404,1.67-2.404,3.313v7.286h-3.592v-7.335c0-1.52,0.101-3.264-2.177-3.264c-0.708,0-2.428,0.455-2.428,3.011v7.588    h-3.592L135.852,70.281L135.852,70.281z" id="path45" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
     </g>
     <g id="g47" style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
-      <polygon points="429.958,2.173 369.855,62.285 404.062,62.285 464.167,2.173   " id="polygon49" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
-      <polygon points="464.244,2.173 404.138,62.285 438.347,62.285 498.451,2.173   " id="polygon51" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
-      <polygon points="498.501,2.173 438.398,62.285 472.605,62.285 532.71,2.173   " id="polygon53" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+      <polygon points="429.958,2.173 369.855,62.285 404.062,62.285 464.167,2.173   " id="polygon49" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(204, 204, 204);"/>
+      <polygon points="464.244,2.173 404.138,62.285 438.347,62.285 498.451,2.173   " id="polygon51" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(221, 221, 221);"/>
+      <polygon points="498.501,2.173 438.398,62.285 472.605,62.285 532.71,2.173   " id="polygon53" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1; fill: rgb(238, 238, 238);"/>
       <polygon points="532.722,2.173 472.617,62.285 506.826,62.285 566.929,2.173   " id="polygon55" style="fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
     </g>
   </g>
