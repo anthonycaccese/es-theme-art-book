@@ -31,7 +31,7 @@ credit:         Logo artwork originally from Carbon theme
          <text name="systemInfo">
             <backgroundColor>141414</backgroundColor>
             <color>666666</color>
-            <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
             <fontSize>0.0222222222222222</fontSize>
          </text>
          <image name="system-border" extra="true">
@@ -42,7 +42,7 @@ credit:         Logo artwork originally from Carbon theme
             <color>444444</color>
          </image>
          <text name="logoText">
-            <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+            <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
             <color>cccccc</color>
             <forceUppercase>true</forceUppercase>
          </text>
@@ -60,7 +60,7 @@ credit:         Logo artwork originally from Carbon theme
          <selectedColor>cccccc</selectedColor>
          <primaryColor>cccccc</primaryColor>
          <secondaryColor>cccccc</secondaryColor>
-         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.025</fontSize>
          <forceUppercase>1</forceUppercase>
          <alignment>center</alignment>
@@ -118,12 +118,12 @@ credit:         Logo artwork originally from Carbon theme
       </text>
       <text name="md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
          <color>333333</color>
-         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.0194444444444444</fontSize>
       </text>
       <datetime name="md_lastplayed,md_releasedate">
          <color>333333</color>
-         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.0194444444444444</fontSize>
       </datetime>
 
@@ -202,9 +202,9 @@ credit:         Logo artwork originally from Carbon theme
          <pos>0.796875 0.1527777777777778</pos>
          <size>0.15625 0.0555555555555556</size>
          <fontSize>0.0444444444444444</fontSize>
-         <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
+         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
          <forceUppercase>true</forceUppercase>
-         <color>777777</color>
+         <color>555555</color>
       </text>
       <textlist name="gamelist">
          <pos>0.7890625 0.2416666666666667</pos>
