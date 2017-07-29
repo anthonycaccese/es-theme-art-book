@@ -40,3 +40,9 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 - First Scrape Flyers (from GDB): /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=gdb,adb,ss -mame_img=fly,b,t,s -max_height=540 -max_width=394 -image_dir=media -image_path=media
 
 - Then Scrape Videos and Marquees (from SS): /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=ss,gdb,adb -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
+
+### Console
+
+- First Scrape Media: /opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
+
+- Then Scrape Clean Names: /opt/retropie/supplementary/scraper/scraper -use_nointro_name=false -strip_unicode=true -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
