@@ -1,6 +1,5 @@
 # Art Book, an EmulationStation theme (WIP)
 A simple theme for Emulation Station and RetroPie based around the look of a coffee table book.  Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/7022/new-theme-crt-with-support-for-video-preview
-Only has NES system for now - will be adding more as I go
 
 ## Preview
 
@@ -19,12 +18,11 @@ Only has NES system for now - will be adding more as I go
 ## Details
 
 - Has support for system, basic, detailed and video views
-- For 16x9 resolutions only (tested at 1280x720 and 1920x1080)
+- Support for new All Games, Favorites, Recently Played and Custom Collections in latest version of Emulation Station
 - Displays the following metadata on detailed and video views: rating, description, # of players, genre, publish date & last played
-
-## Future Updates
-
-- More systems =)
+- 16x9 resolutions only (tested at 1280x720 and 1920x1080)
+- Layout designed to support hardware accelerated OMX player on video views
+- Has SMB (Super Mario), TLOZ (Legend of Zelda) and Megaman custom systems
 
 ## Acknowledgments
 
