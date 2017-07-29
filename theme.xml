@@ -9,7 +9,6 @@ credit:         Logo artwork originally from Carbon theme
 <theme>
    <formatVersion>4</formatVersion>
 
-   <!-- VIEW: All -->
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
          <pos>1 1</pos>
@@ -23,7 +22,6 @@ credit:         Logo artwork originally from Carbon theme
       </image>
    </view>
 
-   <!-- VIEW: System -->
    <feature supported="carousel">
       <view name="system">
          <carousel name="systemcarousel">
@@ -51,7 +49,6 @@ credit:         Logo artwork originally from Carbon theme
       </view>
    </feature>
 
-   <!-- VIEW: Basic Detaield & Video -->
    <view name="basic,detailed,video">
       <image name="logo">
          <origin>.5 0</origin>
@@ -83,7 +80,6 @@ credit:         Logo artwork originally from Carbon theme
       </image>
    </view>
 
-   <!-- VIEW: Basic -->
    <view name="basic">
       <image name="logo">
          <pos>.5 0.1527777777777778</pos>
@@ -106,17 +102,14 @@ credit:         Logo artwork originally from Carbon theme
       </image>
    </view>
 
-   <!-- VIEW: Detailed & Video -->
    <view name="detailed,video">
       
-      <!-- Image -->
       <image name="md_image">
          <origin>0.5 0</origin>
          <pos>0.225 0.1277777777777778</pos>
          <maxSize>0.3078125 0.547222222222222</maxSize>
       </image>
 
-      <!-- Resets -->
       <image name="background" extra="true">
          <color>cccccc</color>
       </image>
@@ -134,7 +127,6 @@ credit:         Logo artwork originally from Carbon theme
          <fontSize>0.0194444444444444</fontSize>
       </datetime>
 
-      <!-- Metadata -->
       <rating name="md_rating">
          <pos>0.4125 0.1388888888888889</pos>
          <size>0.1796875 0.0277777777777778</size>
@@ -176,7 +168,6 @@ credit:         Logo artwork originally from Carbon theme
          <size>0.09375 0.0222222222222222</size>
       </text>
 
-      <!-- Description & Help Icons -->
       <image name="help-launch" extra="true">
          <pos>0.4125 0.472222222222222</pos>
          <origin>0 0</origin>
@@ -197,7 +188,6 @@ credit:         Logo artwork originally from Carbon theme
          <size>0.60625 0.1180555555555556</size>
       </text>
 
-      <!-- Gamelist -->
       <image name="gamelist-background" extra="true">
          <origin>0 0</origin>
          <pos>0.75 0</pos>
@@ -226,7 +216,6 @@ credit:         Logo artwork originally from Carbon theme
       </image>
    </view>
 
-   <!-- VIEW: Video -->
    <view name="video">
       <image name="help-launch" extra="true">
          <pos>0.4125 0.472222222222222</pos>
