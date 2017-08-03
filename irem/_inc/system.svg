@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" width="800" height="310" id="svg2" xmlns="http://www.w3.org/2000/svg">
+  <g id="layer1">
+    <g transform="matrix(8.3477313,0,0,8.3477313,-1970.9091,3120.7934)" id="g3837">
+      <rect width="11.048543" height="10.120466" x="237.4995" y="-372.172" id="rect3738" style="opacity: 1; fill-opacity: 1; fill-rule: nonzero; stroke-width: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(20, 20, 20); fill: rgb(255, 255, 255);"/>
+      <rect width="11.048543" height="23.157747" x="237.4995" y="-362.02948" id="rect3740" style="opacity: 1; fill-opacity: 1; fill-rule: nonzero; stroke-width: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; fill: rgb(255, 255, 255); stroke: rgb(20, 20, 20);"/>
+      <path d="M 248.54067,-362.03125 L 248.54067,-350.96875 L 248.54067,-338.875 L 259.60317,-338.875 L 259.60317,-350.96875 L 271.69692,-350.96875 L 271.69692,-362.03125 L 259.60317,-362.03125 L 248.54067,-362.03125 z" id="rect3742" style="opacity: 1; fill-opacity: 1; fill-rule: nonzero; stroke-width: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(20, 20, 20); fill: rgb(255, 255, 255);"/>
+      <path d="M 271.6934,-362.03125 L 271.6934,-338.875 L 294.6934,-338.875 L 294.6934,-345.90625 L 279.6934,-345.90625 L 279.6934,-345.97817 L 294.6934,-345.97817 L 294.6934,-362.03125 L 271.6934,-362.03125 z M 279.6934,-354.875 L 286.5059,-354.875 L 286.5059,-354.84727 L 279.6934,-354.84727 L 279.6934,-354.875 z" id="rect3746" style="opacity: 1; fill-opacity: 1; fill-rule: nonzero; stroke-width: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(20, 20, 20); fill: rgb(255, 255, 255);"/>
+      <path d="M 294.71577,-362.03125 L 294.71577,-338.875 L 306.78179,-338.875 L 306.78179,-350.8125 L 306.80952,-350.8125 L 306.80952,-338.875 L 318.71929,-338.875 L 318.71929,-350.8125 L 318.74702,-350.8125 L 318.74702,-338.875 L 329.80952,-338.875 L 329.80952,-362.03125 L 294.71577,-362.03125 z" id="rect3748" style="opacity: 1; fill-opacity: 1; fill-rule: nonzero; stroke-width: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(20, 20, 20); fill: rgb(255, 255, 255);"/>
+    </g>
+  </g>
+</svg>
