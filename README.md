@@ -46,3 +46,7 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 - First Scrape Media: /opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
 
 - Then Scrape Clean Names: /opt/retropie/supplementary/scraper/scraper -use_nointro_name=false -strip_unicode=true -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
+
+### Game & Watch
+
+- Run this command in the /roms/gameandwatch folder: /opt/retropie/supplementary/scraper/scraper -console_src=ss -console_img=clabel,b,s -img_format=png -max_height=540 -max_width=505 -image_dir=media -image_path=media
