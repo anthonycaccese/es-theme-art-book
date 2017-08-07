@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Ebene_1" x="0px" y="0px" enable-background="new 0 0 566.929 87.964" xmlns="http://www.w3.org/2000/svg">
-  <g id="g4569" transform="matrix(0.81916268,0,0,0.81916268,-1.6623689e-5,0)">
+  <g id="g4569" transform="matrix(0.476756, 0, 0, 0.476756, -0.00001, 0)">
     <path id="path3999-4" d="m 333.43068,86.023995 34.39609,0 51.67494,-86.0239913326731 -34.38444,0 L 333.43068,86.023995 Z" style="fill-opacity: 1; stroke-opacity: 1; fill: rgb(255, 255, 255);"/>
     <path id="path3912-8" d="m 134.99998,23.46875 0,46.875 28.125,0 c 8.74937,-1.435037 13.75295,-6.336474 15.65625,-14.0625 0.0175,-6.255304 0.003,-12.494669 0,-18.75 -1.9033,-7.726026 -6.90688,-12.627462 -15.65625,-14.0625 l -28.125,0 z m 11,9.40625 12.46875,0 c 3.9161,0.694632 7.63206,1.922577 9.40625,7.8125 l -0.0312,12.5 c -1.7896,5.881358 -5.4902,7.117868 -9.4063,7.8125 l -12.46875,0 0.0312,-28.125 z" style="fill-opacity: 1; stroke-width: 1.11043px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; fill: rgb(255, 255, 255);"/>
     <path id="path3896" d="m 14.639798,70.353531 0,-35.925714 -14.07128834,0 -0.004331,-10.935179 43.77975934,0 -4.693319,10.935179 -10.943856,0.0043 0,35.921377 -14.066965,3.7e-5 z" style="fill-opacity: 1; stroke-width: 1.11043px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; fill: rgb(255, 255, 255);"/>
@@ -10,5 +10,5 @@
     <path id="path3999-4-5" d="m 288.27612,86.023995 34.39609,0 L 374.34715,0 339.96271,0 288.27612,86.023995 Z" style="fill-opacity: 1; fill: rgb(255, 255, 255);"/>
     <path id="path3999-4-5-7" d="m 243.12157,86.024002 34.39609,0 L 329.1926,3.6673269e-6 l -34.38444,0 L 243.12157,86.024002 Z" style="fill-opacity: 1; stroke-opacity: 1; fill: rgb(255, 255, 255);"/>
   </g>
-  <text x="295.30255" y="32.581753" id="text4074" style="fill: rgb(255, 255, 255); font-family: &quot;Open Sans Light&quot;; font-size: 40px; line-height: 50px; white-space: pre;"/>
+  <text x="171.867" y="18.963" id="text4074" style="fill: rgb(255, 255, 255); font-family: &quot;Open Sans Light&quot;; font-size: 23.3px; line-height: 50px; white-space: pre;" transform="matrix(NaN, NaN, NaN, NaN, NaN, NaN)"/>
 </svg>

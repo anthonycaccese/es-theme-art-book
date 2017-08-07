@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Ebene_1" x="0px" y="0px" enable-background="new 0 0 566.926 121.783" xmlns="http://www.w3.org/2000/svg">
-  <g id="g3" style="fill:#ffffff;fill-opacity:1">
+  <g id="g3" style="fill:#ffffff;fill-opacity:1" transform="matrix(0.352779, 0, 0, 0.352779, 0, 0)">
     <polygon points="0,0 28.081,0 28.081,8.264 19.862,8.264 19.862,120.425 9.929,120.425 9.929,8.264 0,8.264  " id="polygon5" style="fill:#ffffff;fill-opacity:1"/>
     <path d="M53.519,112.216H64.48V33.634h9.587v78.582c0,5.086-4.622,8.688-9.36,8.688H53.519c-5.007,0-9.474-4.074-9.474-8.791   V33.634h9.474V112.216z" id="path7" style="fill:#ffffff;fill-opacity:1"/>
     <path d="M259.674,52.827h14.642v68.154h-20.632c-4.412,0-9.846-3.377-9.846-8.5V9.457c0-4.328,4.535-8.937,9.629-8.937h11.259   c4.994,0,9.525,4.567,9.525,8.836v24.407h-9.868V9.696H253.17v102.862h11.472v-51.39h-4.968V52.827z" id="path9" style="fill:#ffffff;fill-opacity:1"/>

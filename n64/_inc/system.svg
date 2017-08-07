@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" x="0px" y="0px" enable-background="new 0 0 566.929 102.84" xmlns="http://www.w3.org/2000/svg">
-  <g id="g3">
+  <g id="g3" transform="matrix(0.352778, 0, 0, 0.352778, 0, 0)">
     <g id="g5" style="fill:#ffffff;fill-opacity:1">
       <g id="layer2" style="fill:#ffffff;fill-opacity:1">
         <polygon id="polygon3542" points="51.491,11.127 39.613,32.324 51.491,27.772 62.829,32.113 65.865,28.707      65.865,5.553    " style="fill-opacity: 1;"/>
