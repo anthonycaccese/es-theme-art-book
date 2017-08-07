@@ -118,12 +118,12 @@ credit:         Logo artwork originally from Carbon theme
          <pos>1 1</pos>
       </text>
       <text name="md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
-         <color>333333</color>
+         <color>111111</color>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.0194444444444444</fontSize>
       </text>
       <datetime name="md_lastplayed,md_releasedate">
-         <color>333333</color>
+         <color>111111</color>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.0194444444444444</fontSize>
       </datetime>
@@ -182,7 +182,7 @@ credit:         Logo artwork originally from Carbon theme
          <size>0.60625 0.0027777777777778</size>
          <origin>0 0</origin>
          <path>./_inc/images/space.png</path>
-         <color>bbbbbb</color>
+         <color>aaaaaa</color>
       </image>
       <text name="md_description">
          <pos>0.071875 0.755555555555556</pos>
