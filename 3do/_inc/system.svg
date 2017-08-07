@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg id="Ebene_2" enable-background="new 0 0 566.929 97.854" version="1.1" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg">
-  <g id="g3" fill="#fff" transform="matrix(0.370446, 0, 0, 0.370446, 0, 0)">
+<svg id="Ebene_2" enable-background="new 0 0 566.929 97.854" version="1.1" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g id="g3" fill="#fff" transform="matrix(1.111338, 0, 0, 1.111338, 0, 0)" bx:origin="0 0">
     <path id="path5" d="m90.931 60.036l-33.194-19.936 14.755-0.008c9.917 0 17.957-8.04 17.957-17.957v-3.965c0-9.917-8.04-17.957-17.957-17.957h-72.465v59.907h11.551v-49.56h43.087l16.165-0.012c4.777 0 8.649 3.873 8.649 8.649v1.91c0 4.776-3.873 8.649-8.649 8.649h-50.389l50.415 30.28h20.075z"/>
     <path id="path7" d="m11.578 10.56h43.087l16.165-0.012"/>
     <path id="path9" d="m72.492 0.213h-72.465"/>
