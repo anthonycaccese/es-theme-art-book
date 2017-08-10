@@ -43,9 +43,7 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 
 ### Console
 
-- First Scrape Media: /opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
-
-- Then Scrape Clean Names: /opt/retropie/supplementary/scraper/scraper -use_nointro_name=false -strip_unicode=true -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
+- Run this command in a system's folder (i.e. /roms/nes): /opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media -use_nointro_name=false 
 
 ### Game & Watch
 
