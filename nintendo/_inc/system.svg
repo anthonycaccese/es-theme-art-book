@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Nintendo" x="0px" y="0px" style="enable-background:new 0 0 7530.2 1855.1;" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css">.logo{fill:#939598}</style>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g>
     <polygon class="logo" points="59.52 38.994 81.201 38.994 111.192 87.519 111.177 38.994 132.69 38.994 132.69 108.579 111.207 108.579 81.057 60.054 81.057 108.579 59.511 108.579" style="fill: rgb(255, 255, 255);"/>
     <polygon class="logo" points="249.642 46.149 270.582 46.149 270.582 55.512 281.913 55.512 281.913 62.397 270.582 62.397 270.597 108.579 249.642 108.579 249.651 62.397 238.272 62.397 238.272 55.53 249.66 55.521" style="fill: rgb(255, 255, 255);"/>

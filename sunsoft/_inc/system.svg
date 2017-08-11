@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style type="text/css">
-   
-    .str0 {stroke:#014898;stroke-width:0.899998}
-    .fil0 {fill:none}
-    .fil1 {fill:#014898}
-    .fil2 {fill:#014898;fill-rule:nonzero}
-   
-  </style>
-  </defs>
   <g>
     <path id="_48001888" class="fil1" d="M 100.89 0.003 L 52.245 0.003 C 7.266 8.301 62.16 79.674 45.087 80.673 L 0 80.739 L 0.003 106.374 L 63.588 106.311 C 106.89 100.338 49.524 28.461 71.442 27.459 C 90.828 27.912 100.89 27.498 100.89 27.498 L 100.89 0.003 Z" style="fill: rgb(255, 255, 255);"/>
     <path id="_47451944" class="fil1" d="M 133.95 0.015 L 106.41 0.003 L 106.389 86.034 C 106.314 100.002 121.851 107.319 144.123 107.37 C 170.073 107.256 183.426 102.033 183.435 86.172 L 183.486 0.003 L 157.803 0.003 L 157.707 71.391 C 157.683 75.324 155.682 77.004 152.244 76.977 L 141.201 76.98 C 136.116 76.998 133.857 75.021 133.869 71.436 L 133.95 0.015 Z" style="fill: rgb(255, 255, 255);"/>
