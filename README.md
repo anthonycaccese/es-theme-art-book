@@ -2,6 +2,7 @@
 A simple theme for Emulation Station and RetroPie based around the look of a coffee table book.  
 Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
 
+
 ## Preview
 
 ### Screenshots
@@ -18,19 +19,21 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 
 ## Details
 
-- List of supported systems: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
-- Has support for system, basic, detailed and video views
-- Support for new All Games, Favorites, Recently Played and Custom Collections in latest version of Emulation Station
+- Full list of supported systems: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
+- Has many custom themes as well - mario (Super Mario Bros), zelda (Legend of Zelda), megaman, etc... (see "custom themes" tab in the google doc above for the full list) 
+- System, basic, detailed and video views are supported
+- Support for new "All Games", "Favorites", "Last Played" and "Custom Collections" features in latest version of EmulationStation
 - Displays rating, description, # of players, genre, publish date & last played metadata on detailed and video views
 - 16x9 resolutions only (tested at 1280x720 and 1920x1080)
 - Layout designed to support hardware accelerated OMX player on video views
-- Has many custom themes as well - mario (Super Mario Bros), zelda (Legend of Zelda), megaman, etc... (see full list in google doc above) 
+
 
 ## Acknowledgments
 
 - Some game console logo graphics are modified from the Carbom theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
+
 
 ## Scraping 
 using selph's scraper: https://github.com/sselph/scraper
