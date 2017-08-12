@@ -8,13 +8,16 @@ Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/
 ### Screenshots
 
 *Detailed View*
-![Detailed View](http://i.imgur.com/45WMfc3.png)
+![Detailed View](http://i.imgur.com/BVkhz56.png)
 
 *Video View*
-![Video View](http://i.imgur.com/rjfopnF.png)
+![Video View](http://i.imgur.com/7QDFPud.png)
 
 *Basic View*
 ![Basic View](http://i.imgur.com/YH4oAci.png)
+
+*System View*
+![System View](http://i.imgur.com/VsXBB6E.png)
 
 
 ## Details
