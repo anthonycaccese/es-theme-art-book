@@ -30,6 +30,7 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 
 - Some game console logo graphics are modified from the Carbom theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
+- Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
 
 ## Scraping
 
