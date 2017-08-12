@@ -32,12 +32,15 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 - ChangaOne font by Eduardo Tunni
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
 
-## Scraping
+## Scraping 
+using selph's scraper: https://github.com/sselph/scraper
 
 ### Arcade
 - Run these commands in an arcade system's folder (i.e. /roms/mame-libretro, /roms/fba): 
-- First Scrape Flyers (from GDB): /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=gdb,adb,ss -mame_img=fly,b,t,s -max_height=540 -max_width=394 -image_dir=media -image_path=media
-- Then Scrape Videos and Marquees (from SS): /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=ss,gdb,adb -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
+- First Scrape Flyers (from GDB): 
+- /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=gdb,adb,ss -mame_img=fly,b,t,s -max_height=540 -max_width=394 -image_dir=media -image_path=media
+- Then Scrape Videos and Marquees (from SS): 
+- /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=ss,gdb,adb -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
 
 ### Console
 
@@ -46,4 +49,5 @@ Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new
 
 ### Game & Watch
 
-- Run this command in the /roms/gameandwatch folder: /opt/retropie/supplementary/scraper/scraper -console_src=ss -console_img=clabel,b,s -img_format=png -max_height=540 -max_width=505 -image_dir=media -image_path=media
+- Run this command in the /roms/gameandwatch folder: 
+- /opt/retropie/supplementary/scraper/scraper -console_src=ss -console_img=clabel,b,s -img_format=png -max_height=540 -max_width=505 -image_dir=media -image_path=media
