@@ -1,6 +1,6 @@
 # Art Book, an EmulationStation theme
-A simple theme for Emulation Station and RetroPie based around the look of a coffee table book.  
-Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
+A simple theme for Emulation Station and RetroPie based on the look of a coffee table book.  
+Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
 
 
 ## Preview
