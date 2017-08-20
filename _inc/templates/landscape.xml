@@ -43,8 +43,10 @@
       <image name="help-favorite" extra="true">
          <pos>0.58125 0.472222222222222</pos>
       </image>
+      <image name="md-description-border" extra="true">
+         <size>0.60625 0.0027777777777778</size>
+      </image>
       <text name="md_description">
-         <pos>0.071875 0.755555555555556</pos>
          <size>0.60625 0.1180555555555556</size>
       </text>
    </view>

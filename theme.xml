@@ -179,14 +179,14 @@ credit:         Logo artwork originally from Carbon theme
       </image>
       <image name="md-description-border" extra="true">
          <pos>0.071875 0.736111111111111</pos>
-         <size>0.60625 0.0027777777777778</size>
+         <size>0.3078125 0.0027777777777778</size>
          <origin>0 0</origin>
          <path>./_inc/images/space.png</path>
          <color>aaaaaa</color>
       </image>
       <text name="md_description">
-         <pos>0.3078125 0.755555555555556</pos>
-         <size>0.60625 0.1180555555555556</size>
+         <pos>0.071875 0.755555555555556</pos>
+         <size>0.3078125 0.1180555555555556</size>
       </text>
 
       <image name="gamelist-background" extra="true">
