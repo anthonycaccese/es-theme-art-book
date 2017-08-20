@@ -44,4 +44,13 @@
          <pos>0.58125 0.472222222222222</pos>
       </image>
    </view>
+   <view name="detailed">
+      <!-- Description & Help Icons -->
+      <image name="md-description-border" extra="true">
+         <size>0.39453125 0.0027777777777778</size>
+      </image>
+      <text name="md_description">
+         <size>0.39453125 0.1180555555555556</size>
+      </text>
+   </view>
 </theme>
