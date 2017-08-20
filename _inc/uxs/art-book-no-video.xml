@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><Profil Name="art-book-no-video">
+	<General>
+		<Source_Image>Screenscraper-Retropie.jpg</Source_Image>
+		<Mix>False</Mix>
+		<Target_Image_Width>505</Target_Image_Width>
+		<Target_Image_Height>540</Target_Image_Height>
+		<Research>*.32x;*.a26;*.a52;*.a78;*.adf;*.adz;*.asc;*.atr;*.atr.gz;*.bas;*.bat;*.bin;*.bz2;*.cas;*.cbn;*.ccc;*.ccd;*.cdi;*.cdt;*.chd;*.col;*.com;*.cpc;*.crt;*.cso;*.ctr;*.cue;*.d64;*.dcm;*.dmk;*.dms;*.dsk;*.dump;*.exe;*.fba;*.fds;*.fig;*.g64;*.gam;*.gb;*.gba;*.gbc;*.gdi;*.gen;*.gg;*.gz;*.ima;*.img;*.int;*.ipf;*.iso;*.j64;*.jag;*.jvc;*.lnx;*.m3u;*.md;*.mdf;*.mgd;*.mgt;*.mx1;*.mx2;*.n64;*.nds;*.nes;*.ngc;*.ngp;*.nib;*.os9;*.pbp;*.pce;*.po;*.prg;*.raw;*.rom;*.sad;*.sbt;*.scl;*.sfc;*.sg;*.sh;*.smc;*.smd;*.sms;*.sna;*.st;*.stx;*.swc;*.szx;*.t64;*.tap;*.toc;*.trd;*.tzx;*.udi;*.v64;*.vb;*.vdk;*.vec;*.vsf;*.wav;*.ws;*.wsc;*.x64;*.xex;*.xfd;*.xfd.gz;*.z;*.z2;*.z64;*.z80;*.zip;*.znx||</Research>
+	</General>
+	<AutoConf>
+		<Source_RootPath>\\retropie\roms</Source_RootPath>
+		<Target_XMLName>%Source_RootPath%\%system%\gamelist.xml</Target_XMLName>
+		<Target_RomPath>./</Target_RomPath>
+		<Source_ImagePath>%Source_RootPath%\%system%\media</Source_ImagePath>
+		<Target_ImagePath>./media/</Target_ImagePath>
+	</AutoConf>
+	<Plink>
+		<Ip>RETROPIE</Ip>
+		<Root>pi</Root>
+		<Pswd>raspberry</Pswd>
+		<Command>
+			<killall>killall emulationstation</killall>
+			<reboot>sudo /sbin/reboot</reboot>
+			<poweroff>sudo /sbin/poweroff</poweroff>
+		</Command>
+	</Plink>
+	<Root>
+		<Source_Value>Data</Source_Value>
+		<Target_Value>gameList</Target_Value>
+	</Root>
+	<Game>
+		<Source_Value>game</Source_Value>
+		<Target_Value>game</Target_Value>
+	</Game>
+	<Country>
+		<Source_Value>Data/jeu/regionshortnames/regionshortname</Source_Value>
+	</Country>
+	<Element Type="Id">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/id</Source_Value>
+		<Target_Type>XML_Attribute</Target_Type>
+		<Target_Attribute_Name>id</Target_Attribute_Name>
+		<Target_Value>game</Target_Value>
+	</Element>
+	<Element Type="Source">
+		<Source_Type>Fixe_Value</Source_Type>
+		<Source_Value>ScreenScraper</Source_Value>
+		<Target_Type>XML_Attribute</Target_Type>
+		<Target_Attribute_Name>source</Target_Attribute_Name>
+		<Target_Value>game</Target_Value>
+	</Element>
+	<Element Type="RomPath">
+		<Source_Type>Variable_Value</Source_Type>
+		<Source_Value>%XML_Rom_Path%</Source_Value>
+		<Target_Type>XML_Value</Target_Type>
+		<Target_Value>game/path</Target_Value>
+	</Element>
+	<Element Type="Name">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/noms/nom_%COUNTRY%</Source_Value>
+		<Target_Type>XML_Value_FORMAT</Target_Type>
+		<Target_FORMAT>%%</Target_FORMAT>
+		<Target_Value>game/name</Target_Value>
+		<Target_CASE>Default</Target_CASE>
+	</Element>
+	<Element Type="Description">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/synopsis/synopsis_%LANG%</Source_Value>
+		<Target_Type>XML_Value</Target_Type>
+		<Target_Value>game/desc</Target_Value>
+		<Target_CASE>Default</Target_CASE>
+	</Element>
+	<Element Type="Picture">
+		<Source_Type>XML_Download</Source_Type>
+		<Source_Download_Path>%Local_Path_File%</Source_Download_Path>
+		<Source_Download_Tag>-boxart2D</Source_Download_Tag>
+		<Source_Download_Ext>jpg</Source_Download_Ext>
+		<Source_Value>Data/jeu/medias/media_boxs/media_boxs2d/media_box2d_%COUNTRY%</Source_Value>
+		<Target_Type>XML_Path</Target_Type>
+		<Target_Path_Type>%XML_Path_File%</Target_Path_Type>
+		<Target_Value>game/image</Target_Value>
+	</Element>
+	<Element Type="Rating">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/note</Source_Value>
+		<Target_Type>XML_Value_FORMAT</Target_Type>
+		<Target_FORMAT>%20on1%</Target_FORMAT>
+		<Target_Value>game/rating</Target_Value>
+	</Element>
+	<Element Type="ReleaseDate">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/dates/date_%COUNTRY%</Source_Value>
+		<Target_Type>XML_Value_FORMAT</Target_Type>
+		<Target_FORMAT>%ES_Date%</Target_FORMAT>
+		<Target_Value>game/releasedate</Target_Value>
+	</Element>
+	<Element Type="Developer">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/developpeur</Source_Value>
+		<Target_Type>XML_Value</Target_Type>
+		<Target_Value>game/developer</Target_Value>
+		<Target_CASE>Default</Target_CASE>
+	</Element>
+	<Element Type="Publisher">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/editeur</Source_Value>
+		<Target_Type>XML_Value</Target_Type>
+		<Target_Value>game/publisher</Target_Value>
+		<Target_CASE>Default</Target_CASE>
+	</Element>
+	<Element Type="Genre">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/genres/genres_%LANG%/genre_%LANG%</Source_Value>
+		<Target_Type>XML_Value</Target_Type>
+		<Target_Value>game/genre</Target_Value>
+		<Target_CASE>Default</Target_CASE>
+	</Element>
+	<Element Type="NbPlayer">
+		<Source_Type>XML_Value</Source_Type>
+		<Source_Value>Data/jeu/joueurs</Source_Value>
+		<Target_Type>XML_Value</Target_Type>
+		<Target_Value>game/players</Target_Value>
+	</Element>
+</Profil>
