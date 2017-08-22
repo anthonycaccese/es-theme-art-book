@@ -2,8 +2,10 @@
 A simple theme for Emulation Station and RetroPie based on the look of a coffee table book.  
 Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
 
-
 ## Preview
+
+### Video Walkthrough
+https://www.youtube.com/watch?v=k_fKUiH_j-8
 
 ### Screenshots
 
@@ -19,7 +21,6 @@ Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/
 *System View*
 ![System View](http://i.imgur.com/VsXBB6E.png)
 
-
 ## Details
 
 - Full list of supported systems: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
@@ -30,13 +31,11 @@ Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/
 - 16x9 resolutions only (tested at 1280x720 and 1920x1080)
 - Layout designed to support hardware accelerated OMX player on video views
 
-
 ## Acknowledgments
 
 - Some game console logo graphics are modified from the Carbom theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
-
 
 ## Scraping 
 using selph's scraper: https://github.com/sselph/scraper
