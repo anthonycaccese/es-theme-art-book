@@ -2,7 +2,7 @@
 <!--
 theme name:     Art Book
 version:        1.0
-author:         Anthony
+author:         Anthony Caccese
 license:        creative commons CC-BY-NC-SA
 credit:         Logo artwork originally from Carbon theme
 -->
@@ -86,8 +86,8 @@ credit:         Logo artwork originally from Carbon theme
          <pos>.5 0.1527777777777778</pos>
       </image>
       <textlist name="gamelist">
-         <pos>0.375 0.2416666666666667</pos>
-         <size>0.25 0.5555555555555556</size>
+         <pos>0.1484375 0.2416666666666667</pos>
+         <size>0.703125 0.5555555555555556</size>
       </textlist>
       <image name="help-launch" extra="true">
          <origin>0 0</origin>
@@ -218,19 +218,6 @@ credit:         Logo artwork originally from Carbon theme
    </view>
 
    <view name="video">
-      <image name="help-launch" extra="true">
-         <pos>0.4125 0.472222222222222</pos>
-      </image>
-      <image name="help-favorite" extra="true">
-         <pos>0.4953125 0.472222222222222</pos>
-      </image>
-      <image name="md-description-border" extra="true">
-         <size>0.3078125 0.0027777777777778</size>
-      </image>
-      <text name="md_description">
-         <pos>0.071875 0.755555555555556</pos>
-         <size>0.3078125 0.1180555555555556</size>
-      </text>
       <image name="md_marquee">
          <origin>0 0</origin>
          <pos>1 1</pos>
