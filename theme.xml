@@ -28,6 +28,8 @@ credit:         Logo artwork originally from Carbon theme
          <carousel name="systemcarousel">
             <type>horizontal</type>
             <color>141414</color>
+            <logoScale>1.9</logoScale>
+            <logoSize>0.15625 0.097222222222222</logoSize>
          </carousel>
          <text name="systemInfo">
             <backgroundColor>141414</backgroundColor>
