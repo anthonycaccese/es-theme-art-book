@@ -4,7 +4,7 @@ theme name:     Art Book
 version:        1.0
 author:         Anthony Caccese
 license:        creative commons CC-BY-NC-SA
-credit:         Logo artwork originally from Carbon theme
+credit:         Logo artwork originally from Carbon theme / Controller artwork originally from Retroarch Wallpapers
 -->
 <theme>
    <formatVersion>4</formatVersion>
@@ -27,12 +27,12 @@ credit:         Logo artwork originally from Carbon theme
       <view name="system">
          <carousel name="systemcarousel">
             <type>horizontal</type>
-            <color>141414</color>
+            <color>14141400</color>
             <logoScale>1.9</logoScale>
             <logoSize>0.15625 0.097222222222222</logoSize>
          </carousel>
          <text name="systemInfo">
-            <backgroundColor>141414</backgroundColor>
+            <backgroundColor>14141400</backgroundColor>
             <color>666666</color>
             <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
             <fontSize>0.0222222222222222</fontSize>
@@ -49,6 +49,12 @@ credit:         Logo artwork originally from Carbon theme
             <color>cccccc</color>
             <forceUppercase>true</forceUppercase>
          </text>
+         <image name="controller" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./${system.theme}/_inc/controller.svg</path>
+         </image>
       </view>
    </feature>
 
