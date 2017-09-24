@@ -35,6 +35,7 @@ https://www.youtube.com/watch?v=k_fKUiH_j-8
 
 - Some game console logo graphics are modified from the Carbom theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
+- Controller artwork originally from Retroarch bichromatic pads wallpapers created by various artists (see: https://github.com/libretro/retroarch-assets/tree/master/wallpapers/bichromatic%20pads)
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
 
 ## Scraping 
