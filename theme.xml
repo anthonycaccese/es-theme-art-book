@@ -207,10 +207,12 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
          <color>141414</color>
       </image>
       <image name="logo">
-         <pos>0.875 0.1527777777777778</pos>
+         <!--<pos>0.875 0.1527777777777778</pos>-->
+         <pos>0.8625 0.1527777777777778</pos>
       </image>
       <text name="logoText">
-         <pos>0.796875 0.1527777777777778</pos>
+         <!--<pos>0.796875 0.1527777777777778</pos>-->
+         <pos>0.784375 0.1527777777777778</pos>
          <size>0.15625 0.0555555555555556</size>
          <fontSize>0.0444444444444444</fontSize>
          <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
@@ -225,7 +227,8 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
       </textlist>
       <image name="help-random" extra="true">
          <origin>0.5 0</origin>
-         <pos>0.875 0.8333333333333333</pos>
+         <!--<pos>0.875 0.8333333333333333</pos>-->
+         <pos>0.8625 0.8333333333333333</pos>
       </image>
    </view>
 
