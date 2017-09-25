@@ -199,8 +199,10 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
 
       <image name="gamelist-background" extra="true">
          <origin>0 0</origin>
-         <pos>0.75 0</pos>
-         <size>0.25 1</size>
+         <!--<pos>0.75 0</pos>
+         <size>0.25 1</size>-->
+         <pos>0.725 0</pos>
+         <size>0.275 1</size>
          <path>./_inc/images/space.png</path>
          <color>141414</color>
       </image>
@@ -216,8 +218,10 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
          <color>555555</color>
       </text>
       <textlist name="gamelist">
-         <pos>0.7890625 0.2416666666666667</pos>
-         <size>0.171875 0.5555555555555556</size>
+         <!--<pos>0.7890625 0.2416666666666667</pos>
+         <size>0.171875 0.5555555555555556</size>-->
+         <pos>0.75 0.2416666666666667</pos>
+         <size>0.225 0.5555555555555556</size>
       </textlist>
       <image name="help-random" extra="true">
          <origin>0.5 0</origin>
