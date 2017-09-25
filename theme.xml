@@ -222,8 +222,8 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
       <textlist name="gamelist">
          <!--<pos>0.7890625 0.2416666666666667</pos>
          <size>0.171875 0.5555555555555556</size>-->
-         <pos>0.75 0.2416666666666667</pos>
-         <size>0.225 0.5555555555555556</size>
+         <pos>0.7578125 0.2416666666666667</pos>
+         <size>0.209375 0.5555555555555556</size>
       </textlist>
       <image name="help-random" extra="true">
          <origin>0.5 0</origin>
