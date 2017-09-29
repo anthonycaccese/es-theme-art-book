@@ -1,14 +1,11 @@
 <theme>
    <formatVersion>4</formatVersion>
-   <!-- VIEW: Detailed & Video -->
    <view name="detailed,video">
-      <!-- Image -->
       <image name="md_image">
          <origin>0 0</origin>
          <pos>0.071875 0.1277777777777778</pos>
          <maxSize>0.39453125 0.5138888888888889</maxSize>
       </image>
-      <!-- Metadata -->
       <rating name="md_rating">
          <pos>0.4984375 0.1388888888888889</pos>
       </rating>
@@ -36,7 +33,6 @@
       <text name="md_genre">
          <pos>0.584375 0.2777777777777778</pos>
       </text>
-      <!-- Description & Help Icons -->
       <image name="help-launch" extra="true">
          <pos>0.4984375 0.472222222222222</pos>
       </image>
@@ -45,7 +41,6 @@
       </image>
    </view>
    <view name="detailed">
-      <!-- Description & Help Icons -->
       <image name="md-description-border" extra="true">
          <size>0.39453125 0.0027777777777778</size>
       </image>

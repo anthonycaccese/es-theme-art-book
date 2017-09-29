@@ -49,12 +49,6 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
             <color>cccccc</color>
             <forceUppercase>true</forceUppercase>
          </text>
-         <image name="controller" extra="true">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
-            <size>1 1</size>
-            <path>./${system.theme}/_inc/controller.svg</path>
-         </image>
       </view>
    </feature>
 
@@ -199,19 +193,15 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
 
       <image name="gamelist-background" extra="true">
          <origin>0 0</origin>
-         <!--<pos>0.75 0</pos>
-         <size>0.25 1</size>-->
          <pos>0.725 0</pos>
          <size>0.275 1</size>
          <path>./_inc/images/space.png</path>
          <color>141414</color>
       </image>
       <image name="logo">
-         <!--<pos>0.875 0.1527777777777778</pos>-->
          <pos>0.8625 0.1527777777777778</pos>
       </image>
       <text name="logoText">
-         <!--<pos>0.796875 0.1527777777777778</pos>-->
          <pos>0.784375 0.1527777777777778</pos>
          <size>0.15625 0.0555555555555556</size>
          <fontSize>0.0444444444444444</fontSize>
@@ -220,14 +210,11 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
          <color>555555</color>
       </text>
       <textlist name="gamelist">
-         <!--<pos>0.7890625 0.2416666666666667</pos>
-         <size>0.171875 0.5555555555555556</size>-->
          <pos>0.7578125 0.2416666666666667</pos>
          <size>0.209375 0.5555555555555556</size>
       </textlist>
       <image name="help-random" extra="true">
          <origin>0.5 0</origin>
-         <!--<pos>0.875 0.8333333333333333</pos>-->
          <pos>0.8625 0.8333333333333333</pos>
       </image>
    </view>
