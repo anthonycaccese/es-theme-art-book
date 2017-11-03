@@ -7,9 +7,4 @@
          <path>./_inc/system.svg</path>
       </image>
    </view>
-   <view name="system">
-      <image name="controller" extra="true">
-         <path>./_inc/controller.svg</path>
-      </image>
-   </view>
 </theme>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     Art Book
-version:        1.0
+version:        1.5
 author:         Anthony Caccese
 license:        creative commons CC-BY-NC-SA
-credit:         Logo artwork originally from Carbon theme / Controller artwork originally from Retroarch Wallpapers
+credit:         Logo and Controller artwork by Eric Hettervik
 -->
 <theme>
    <formatVersion>4</formatVersion>
@@ -49,6 +49,12 @@ credit:         Logo artwork originally from Carbon theme / Controller artwork o
             <color>cccccc</color>
             <forceUppercase>true</forceUppercase>
          </text>
+         <image name="artwork" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>0.4 0.6</maxSize>
+            <path>./${system.theme}/_inc/art.svg</path>
+         </image>
       </view>
    </feature>
 

@@ -33,9 +33,9 @@ https://www.youtube.com/watch?v=k_fKUiH_j-8
 
 ## Acknowledgments
 
-- Some game console logo graphics are modified from the Carbom theme by Eric Hettervik
+- System logos modified from the Carbom theme by Eric Hettervik
+- Controller artwork created by Eric Hettervik from the Carbon theme (see: https://github.com/RetroPie/es-theme-carbon)
 - ChangaOne font by Eduardo Tunni
-- Controller artwork originally from Retroarch bichromatic pads wallpapers created by various artists (see: https://github.com/libretro/retroarch-assets/tree/master/wallpapers/bichromatic%20pads)
 - Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
 
 ## Scraping 
