@@ -49,12 +49,12 @@ credit:         Logo and Controller artwork by Eric Hettervik
             <color>cccccc</color>
             <forceUppercase>true</forceUppercase>
          </text>
-         <image name="artwork" extra="true">
+         <!--<image name="artwork" extra="true">
             <origin>0.5 0.5</origin>
             <pos>0.5 0.5</pos>
             <maxSize>0.4 0.6</maxSize>
             <path>./${system.theme}/_inc/art.svg</path>
-         </image>
+         </image>-->
       </view>
    </feature>
 
