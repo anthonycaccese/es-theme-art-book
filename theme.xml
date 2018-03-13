@@ -52,7 +52,7 @@ credit:         Logo and Controller artwork by Eric Hettervik
          <!--<image name="artwork" extra="true">
             <origin>0.5 0.5</origin>
             <pos>0.5 0.5</pos>
-            <maxSize>0.4 0.6</maxSize>
+            <size>0.3 0</size>
             <path>./${system.theme}/_inc/art.svg</path>
          </image>-->
       </view>
